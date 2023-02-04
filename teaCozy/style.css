@@ -1,0 +1,86 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+nav a {
+    padding: 10px;
+    color: seashell;
+    text-decoration: underline;
+}
+
+nav a::before {
+    content: ">";
+}
+/* end of the header*/
+
+main {
+    margin: auto;
+}
+
+.mission {
+    margin: 70px auto;   
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./images/img-mission-background.webp");
+}
+
+.mission h2, h4 {
+    background-color: black;
+    width: 100%;
+    
+}
+
+/*Tea of the month*/
+
+.month {
+    margin: auto;
+    width: 1000px;
+}
+
+#image-gallery {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.IGSize {
+    height: 200px;
+    width: 300px;
+    padding: 10px 16px;
+}
+
